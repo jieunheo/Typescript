@@ -1,7 +1,8 @@
 function add(n1: number, n2: number) {
-  if (typeof n1 === typeof number1) {
-    return n1 + n2;
+  if (typeof n1 !== 'number' || typeof number1 !== 'number') {
+    throw new Error('Incrrect input!');
   }
+  return n1 + n2;
 }
 
 const number1 = 5;
