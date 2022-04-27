@@ -1,7 +1,7 @@
 function add(n1: number, n2: number) {
-  if (typeof n1 !== 'number' || typeof number1 !== 'number') {
-    throw new Error('Incrrect input!');
-  }
+  // if (typeof n1 !== 'number' || typeof number1 !== 'number') {
+  //   throw new Error('Incrrect input!');
+  // }
   return n1 + n2;
 }
 
