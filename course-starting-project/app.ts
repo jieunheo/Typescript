@@ -45,6 +45,6 @@ for (const hobby of person.hobbies) {
   console.log(hobby.toUpperCase);
 }
 
-if (person.role === ADMIN) {
+if (person.role === Role.ADMIN) {
   console.log('is admin');
 }
