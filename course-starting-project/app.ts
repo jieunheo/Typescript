@@ -1,4 +1,4 @@
-const person: object = {
+const person: {name: string, age: number} = {
   name: 'hong',
   age: 30
 }
