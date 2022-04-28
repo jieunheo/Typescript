@@ -2,11 +2,22 @@
 //   name: string;
 //   age: number;
 // } = {
-const person = {
+const person: {
+  name: string;
+  age: number;
+  hobbies: string[];
+  role: [number, string]; // 튜플
+} = {
   name: 'hong',
   age: 30,
-  hobbies: ['Sports', 'Cooking']
+  hobbies: ['Sports', 'Cooking'],
+  role: [2, 'author']
 }
+
+// 튜플 - 정해진 갯수의 정해진 타입을 가진 값
+// person.role.push('admin'); // 값 넣기 - 허용
+// person.role.[1] = 10; // 값 바꾸기 - error
+// person.role = []; // 초기화 - error
 
 let favoriteActivities: string[];
 // favoriteActivities = 'Sports'; // error
