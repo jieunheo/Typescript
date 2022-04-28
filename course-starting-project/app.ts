@@ -18,7 +18,7 @@
 // const READ_ONLY = 1;
 // const AURTHOR = 2;
 // -> 각각 따로 관리 해야 하는 겂을 묶어서 관리할 수 있음
-enum Role { ADMIN = 5, READ_ONLY, AURTHOR };
+enum Role { ADMIN = 5, READ_ONLY = 'READ_ONLY', AURTHOR };
 
 const person = {
   name: 'hong', // string
