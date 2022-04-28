@@ -6,11 +6,11 @@ const person: {
   name: string;
   age: number;
   hobbies: string[];
-  role: [number, string]; // 튜플
+  role: [number, string]; // Tuple
 } = {
-  name: 'hong',
-  age: 30,
-  hobbies: ['Sports', 'Cooking'],
+  name: 'hong', // string
+  age: 30, // number
+  hobbies: ['Sports', 'Cooking'], // Array
   role: [2, 'author']
 }
 
